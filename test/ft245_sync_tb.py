@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from litex.gen import *
 from litex.gen.fhdl.specials import Tristate
 from litex.gen.sim.generic import run_simulation
