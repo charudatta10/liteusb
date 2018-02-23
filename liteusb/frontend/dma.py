@@ -1,10 +1,10 @@
-from litex.gen import *
+from migen import *
 
-from litex.gen.flow.actor import *
-from litex.gen.flow.network import *
-from litex.gen.actorlib import structuring, spi
-from litex.gen.bank.description import *
-from litex.gen.bank.eventmanager import *
+from migen.flow.actor import *
+from migen.flow.network import *
+from migen.actorlib import structuring, spi
+from migen.bank.description import *
+from migen.bank.eventmanager import *
 
 from litex.soc.interconnect import stream
 from litex.soc.interconnect import dma_lasmi

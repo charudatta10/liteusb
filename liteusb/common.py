@@ -1,5 +1,5 @@
-from litex.gen import *
-from litex.gen.genlib.fsm import *
+from migen import *
+from migen.genlib.fsm import *
 
 from litex.soc.interconnect import stream
 from litex.soc.interconnect.stream import EndpointDescription

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-from litex.gen import *
-from litex.gen.fhdl.specials import Tristate
-from litex.gen.sim.generic import run_simulation
+from migen import *
+from migen.fhdl.specials import Tristate
+from migen.sim.generic import run_simulation
 
 from litex.soc.interconnect.stream_sim import *
 

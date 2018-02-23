@@ -2,8 +2,8 @@ from collections import OrderedDict
 from functools import reduce
 from operator import xor
 
-from litex.gen import *
-from litex.gen.genlib.misc import chooser
+from migen import *
+from migen.genlib.misc import chooser
 
 from litex.soc.interconnect import stream
 
